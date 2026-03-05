@@ -20,7 +20,7 @@ const openai = new OpenAI({
     baseURL: process.env.OPENAI_BASE_URL ?? "https://openrouter.ai/api/v1",
     defaultHeaders: {
         // OpenRouter recommends setting these headers
-        "HTTP-Referer": "http://localhost:4000",
+        "HTTP-Referer": "https://hack-fro.onrender.com",
         "X-Title": "Smart Open Elective System",
     },
 });
