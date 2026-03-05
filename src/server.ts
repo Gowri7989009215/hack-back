@@ -24,7 +24,7 @@ async function start() {
 
   app.listen(PORT, () => {
     // eslint-disable-next-line no-console
-    console.log(`API server running on http://localhost:${PORT}`);
+    console.log(`API server running on https://hack-fro.onrender.com`);
   });
 }
 
